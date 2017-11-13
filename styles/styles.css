@@ -1,0 +1,136 @@
+header {
+  background-image: url("../images_style_sheets/avoback1.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-size: 800px;*/
+}
+header p{
+  /*width: 100px;*/
+  margin: 0px;
+  display: flex;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 300px;
+}
+.hello {
+  display: flex;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  font-family: monospace;
+  display: flex;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  font-size: 2em;
+  color: rgb(59, 121, 88);
+}
+.hello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#intro {
+  display: none;
+  height: 30px;
+  color: rgb(59, 98, 198);
+}
+.hello:hover #intro {
+  display: block;
+}
+
+/* GITHUB LINKS*/
+#project {
+  font-family: monospace;
+  background-color: #FFDDCF;
+  height: 0px;
+  color: white;
+  font-size: 90px;
+  display: flex;
+  padding-left: 80px;
+  /*align-items: center;*/
+}
+.logo  {
+  background-color: #FFDDCF;
+}
+.logo img {
+  height: 100px;
+}
+/* GITHUB LINK HOVER CSS */
+.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  /*width: 100px;*/
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+/*techlink CSS */
+#techlink {
+  background-position: bottom;
+  background-image: url("../images_style_sheets/beach.jpg");
+}
+#techlink ul {
+  height: 700px;
+  list-style-type: none;
+  margin: -10px;
+  display: flex;
+  flex-directon: row;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+.icon img {
+  height: 50px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+
+/*blog css*/
+#bloglink {
+  top: 0;
+  background-image: url("../images_style_sheets/back3.jpg");
+  height: 700px;
+  background-size: cover;
+}
+#bloglink a {
+  color: white;
+  font-size: 300px;
+}

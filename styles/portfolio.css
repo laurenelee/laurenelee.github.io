@@ -1,0 +1,75 @@
+
+body {
+  background-image: url("../images_style_sheets/beach.jpg");
+  background-color: rgb(206, 245, 206);
+}
+
+ul {
+  list-style-type: none;
+}
+nav ul li{
+  /*display: inline-block;*/
+}
+.nav {
+  color: rgba(213, 85, 158, 0.96);
+  font-family: 'Londrina Shadow', cursive;
+
+  /*font-family: 'Source Code Pro', monospace;*/
+  text-decoration: none;
+  float: right;
+  clear: both;
+  padding-bottom: 20px;
+  margin: 10px 10px 10px 10px;
+  height: 20px;
+  font-size: 50px;
+  /*text-align: center;*/
+}
+.nav:hover {
+  color: rgb(19, 137, 179);
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Londrina Shadow', cursive;
+  color: rgb(105, 30, 110);
+  font-size: 450%;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  clear: both;
+  padding-top: 10px;
+}
+img {
+  height: 400px;
+  float: left;
+  padding-left: 100px;
+  padding-right: 10px;
+}
+.words {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px black;
+  line-height: 50px;
+}
+.link-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.links {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: none;
+  color: rgb(19, 137, 179);
+  text-shadow: 2px 2px white;
+}
+.links:hover {
+  font-weight: bold;
+  color: rgb(119, 155, 247);
+}
+.words {
+  background-color: rgba(111, 196, 163, 0.72);
+}
+p {
+  margin-bottom: 10px;
+}
