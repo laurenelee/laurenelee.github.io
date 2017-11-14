@@ -53,6 +53,7 @@ a {
 /* GITHUB LINKS*/
 .code-project {
   z-index: 1;
+  position: relative;
 }
 #project {
   font-family: monospace;
@@ -96,6 +97,7 @@ section {
 .container {
   position: relative;
   width: 50%;
+  
 }
 .container1 {
   position: relative;
