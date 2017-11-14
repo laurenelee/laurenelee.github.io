@@ -9,7 +9,7 @@ header p{
   /*width: 100px;*/
   margin: 0px;
   display: flex;
-  height: 700px;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -19,7 +19,7 @@ img {
 }
 .hello {
   display: flex;
-  height: 700px;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -27,7 +27,7 @@ img {
 article {
   font-family: monospace;
   display: flex;
-  height: 700px;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -54,19 +54,36 @@ a {
 #project {
   font-family: monospace;
   background-color: #FFDDCF;
-  height: 0px;
+  height: 250px;
   color: white;
   font-size: 90px;
   display: flex;
   padding-left: 80px;
+
   /*align-items: center;*/
 }
-.logo  {
+.logo, .logo1, .pink  {
   background-color: #FFDDCF;
 }
 .logo img {
   height: 100px;
 }
+.logo1 img {
+  height: 100px;
+}
+section {
+  display: flex;
+  font-family: monospace;
+}
+.pink {
+  height: 200px;
+}
+.logo {
+  height: 200px;
+  display: flex;
+  align-self: flex-end;
+}
+
 /* GITHUB LINK HOVER CSS */
 .container {
   position: relative;
@@ -107,7 +124,7 @@ a {
   background-image: url("../images_style_sheets/beach.jpg");
 }
 #techlink ul {
-  height: 700px;
+  height: 100vh;
   list-style-type: none;
   margin: -10px;
   display: flex;
@@ -127,7 +144,7 @@ a {
 #bloglink {
   top: 0;
   background-image: url("../images_style_sheets/back3.jpg");
-  height: 700px;
+  height: 100vh;
   background-size: cover;
 }
 #bloglink a {
