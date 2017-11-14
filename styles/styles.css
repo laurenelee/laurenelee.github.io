@@ -51,6 +51,9 @@ a {
 }
 
 /* GITHUB LINKS*/
+.code-project {
+  z-index: 1;
+}
 #project {
   font-family: monospace;
   background-color: #FFDDCF;
@@ -79,9 +82,14 @@ section {
   height: 200px;
 }
 .logo {
+  height: 100px;
+  /*display: flex;*/
+  /*align-self: flex-end;*/
+}
+.logo1 {
   height: 200px;
-  display: flex;
-  align-self: flex-end;
+  /*display: flex;*/
+  /*align-self: flex-end;*/
 }
 
 /* GITHUB LINK HOVER CSS */
